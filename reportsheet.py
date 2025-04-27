@@ -12,8 +12,7 @@ from google.oauth2.service_account import Credentials
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
 AUTHORIZED_USER_ID = os.getenv("AUTHORIZED_USER_ID")
-
-
+SHEET_NAME = os.getenv("SHEET_NAME")
 
 # Initialiser l'API Google Sheets
 def get_sheets_service():
